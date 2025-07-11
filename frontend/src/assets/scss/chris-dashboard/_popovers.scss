@@ -1,0 +1,18 @@
+/*!******************************************************************************
+ * Copyright (c) 2024. AlienBase
+ *
+ * @project DPrince-Frontend
+ * @author AlienBase
+ * @copyright AlienBase All rights reserved
+ ******************************************************************************/
+
+.popover {
+  box-shadow: $popover-box-shadow;
+}
+
+// popover title
+.popover {
+  .popover-header {
+    font-weight: 600;
+  }
+}

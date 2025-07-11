@@ -1,0 +1,30 @@
+/*!******************************************************************************
+ * Copyright (c) 2024. AlienBase
+ *
+ * @project DPrince-Frontend
+ * @author AlienBase
+ * @copyright AlienBase All rights reserved
+ ******************************************************************************/
+@import 'primeicons/primeicons.css';
+
+.app-is-loading{
+	overflow: hidden !important;
+	max-height: 100vh !important;
+}
+
+.loader-shown{
+	display: block;
+	transition: ease-in 0s;
+}
+
+.loader-hidden{
+	display: none !important;
+	transition: ease-out 1s;
+}
+
+
+.p-datepicker-year-view span.p-datepicker-year,
+.p-datepicker-month-view span.p-datepicker-month{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}

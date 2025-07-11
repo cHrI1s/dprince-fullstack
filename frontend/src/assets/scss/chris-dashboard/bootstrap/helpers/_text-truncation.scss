@@ -1,0 +1,15 @@
+/*!******************************************************************************
+ * Copyright (c) 2024. AlienBase
+ *
+ * @project DPrince-Frontend
+ * @author AlienBase
+ * @copyright AlienBase All rights reserved
+ ******************************************************************************/
+
+//
+// Text truncation
+//
+
+.text-truncate {
+  @include text-truncate();
+}

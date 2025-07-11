@@ -1,0 +1,23 @@
+/*!******************************************************************************
+ * Copyright (c) 2024. AlienBase
+ *
+ * @project DPrince-Frontend
+ * @author AlienBase
+ * @copyright AlienBase All rights reserved
+ ******************************************************************************/
+
+.progress-bar {
+  height: $progress-bar-height;
+  border-radius: $border-radius-sm;
+}
+
+.progress {
+  overflow: visible;
+
+  &.progress-sm {
+    height: $progress-height-sm;
+  }
+  &.progress-lg {
+    height: $progress-height-lg;
+  }
+}

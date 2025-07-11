@@ -1,0 +1,5 @@
+node_modules
+echo /node_modules> frontend\.gitignore
+echo /dist>> frontend\.gitignore
+echo .env>> frontend\.gitignore
+echo .DS_Store>> frontend\.gitignore

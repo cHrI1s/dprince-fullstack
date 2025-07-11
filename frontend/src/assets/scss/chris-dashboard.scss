@@ -1,0 +1,82 @@
+/*!******************************************************************************
+ * Copyright (c) 2024. AlienBase
+ *
+ * @project DPrince-Frontend
+ * @author AlienBase
+ * @copyright AlienBase All rights reserved
+ ******************************************************************************/
+
+// Bootstrap Functions
+@import "chris-dashboard/bootstrap/functions";
+
+// Custom Variables
+@import "chris-dashboard/custom/variables";
+
+// Theme Variables
+@import "chris-dashboard/variables";
+
+// Bootstrap Core
+@import "chris-dashboard/bootstrap/bootstrap";
+
+// Theme Core
+@import "chris-dashboard/theme";
+
+// Custom Variables
+@import "chris-dashboard/custom/styles";
+
+.sidenav{
+	z-index: 1000 !important;
+}
+.main-content{
+	min-height: 100vh;
+}
+
+.text-center .p-chart canvas{
+	margin: 0 auto !important;
+}
+
+.table-header{
+	background-color: #1982d5;
+}
+
+.right-0{
+	right: 0 !important;
+}
+
+.box-shadow-none{
+	box-shadow: unset !important;
+}
+
+.text-uppercase,
+.p-inputtext:not(.normal-text),
+.p-textarea:not(.normal-text){
+	text-transform: uppercase !important;
+}
+
+.text-lowercase {
+	text-transform: lowercase !important;
+}
+
+
+.loader-shown{
+	display: block;
+	transition: ease-in 0s;
+}
+
+.loader-hidden{
+	display: none !important;
+	transition: ease-out 1s;
+}
+
+.user-profile{
+	aspect-ratio: 1 !important;
+}
+
+.text-underline{
+	text-decoration: underline !important;
+}
+
+.text-hoverable:hover{
+	color: #000 !important;
+	transform: scale(1.1);
+}

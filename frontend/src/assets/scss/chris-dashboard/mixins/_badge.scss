@@ -1,0 +1,20 @@
+/*!******************************************************************************
+ * Copyright (c) 2024. AlienBase
+ *
+ * @project DPrince-Frontend
+ * @author AlienBase
+ * @copyright AlienBase All rights reserved
+ ******************************************************************************/
+
+@mixin badge-variant($bg) {
+	color: saturate(darken($bg, 10%), 10);
+    background-color: lighten($bg, 32%);
+
+  	&[href] {
+	    @include hover-focus {
+	        color: color-yiq($bg);
+	        text-decoration: none;
+	        background-color: darken($bg, 12%);
+	    }
+	}
+}

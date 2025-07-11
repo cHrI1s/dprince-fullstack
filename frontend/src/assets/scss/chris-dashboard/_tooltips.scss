@@ -1,0 +1,17 @@
+/*!******************************************************************************
+ * Copyright (c) 2024. AlienBase
+ *
+ * @project DPrince-Frontend
+ * @author AlienBase
+ * @copyright AlienBase All rights reserved
+ ******************************************************************************/
+
+.bs-tooltip-auto[x-placement^=right] .tooltip-arrow,
+.bs-tooltip-right .tooltip-arrow {
+  left: $tooltip-arrow-left;
+}
+
+.bs-tooltip-auto[x-placement^=left] .tooltip-arrow,
+.bs-tooltip-left .tooltip-arrow {
+  right: $tooltip-arrow-right;
+}
